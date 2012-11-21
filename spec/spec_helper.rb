@@ -35,4 +35,6 @@ RSpec.configure do |config|
   config.after(:each) do
     DatabaseCleaner.clean
   end
+
+  BCrypt::Engine::DEFAULT_COST = 1
 end
