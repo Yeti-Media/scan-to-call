@@ -25,6 +25,7 @@ gem 'puma'
 # Uploads
 gem 'carrierwave'
 gem 'fog'
+gem 'carrierwave-mongoid', require: 'carrierwave/mongoid'
 
 group :development, :test do
   gem 'rspec-rails'

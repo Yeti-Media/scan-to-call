@@ -54,6 +54,9 @@ GEM
     carrierwave (0.7.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
+    carrierwave-mongoid (0.1.0)
+      carrierwave
+      mongoid
     childprocess (0.3.6)
       ffi (~> 1.0, >= 1.0.6)
     coffee-rails (3.2.2)
@@ -172,6 +175,7 @@ DEPENDENCIES
   bcrypt-ruby (~> 3.0.0)
   capybara
   carrierwave
+  carrierwave-mongoid
   coffee-rails (~> 3.2.1)
   dalli
   database_cleaner
