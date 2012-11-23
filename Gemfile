@@ -22,6 +22,10 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # Use puma as the app server
 gem 'puma'
 
+# Uploads
+gem 'carrierwave'
+gem 'fog'
+
 group :development, :test do
   gem 'rspec-rails'
 end
